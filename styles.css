@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(./Images/Miniatura\ para\ youtube\ brigadeiro\ perfeito\ marrom.png);
+
+
+}
+
+.logo {
+    width: 200px;
+    margin-left: -10px;
+
+}
+
+.insta {
+    width: 50px;
+    margin-left: 970px;
+    margin-bottom: 100px;
+    margin-top: 0;
+}
+
+p {
+    font-size: 10px;
+    color: rgb(75, 33, 33);
+    width: 20px;
+    margin-left: 1115px;
+    margin-top: -100px;
+    margin-bottom: 50px;
+
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 1s;
+    margin-bottom: -50px;
+
+}
+
+.botao-brigadeiro {
+    width: 200px;
+    background: rgb(238, 192, 192);
+    color: rgb(75, 33, 33);
+    border-radius: 60px;
+    border: none;
+    cursor: pointer;
+    margin: 12px;
+    margin-left: 100px;
+}
+
+.botao-brigadeiro:hover {
+    transform: translateY(-25px);
+
+}
+
+.botao-tematicos {
+    width: 200px;
+    background: rgb(238, 192, 192);
+    color: rgb(75, 33, 33);
+    border-radius: 60px;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.botao-tematicos:hover {
+    transform: translateY(-25px);
+
+}
+
+.kits {
+    width: 200px;
+    background: rgb(238, 192, 192);
+    color: rgb(75, 33, 33);
+    border-radius: 60px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    margin: 15px;
+
+
+}
+
+.kits:hover {
+    transform: translateY(-25px);
+
+}
+
+.botao-bolos {
+    width: 200px;
+    background: rgb(238, 192, 192);
+    color: rgb(75, 33, 33);
+    border-radius: 60px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.botao-bolos:hover {
+    transform: translateY(-25px);
+
+}
+
+
+.botao-pedido {
+    width: 230px;
+    font-size: 15px;
+    background: plum;
+    color: rgb(75, 33, 33);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 560px;
+    margin-bottom: 50px;
+
+}
+
+#thumbs {
+    width: 500px;
+    margin-top: 100px;
+    margin-bottom: -100px;
+    margin-left: 100px;
+}
+
+@media(max-width:1000px) {
+
+
+
+    .insta {
+        width: 60px;
+        margin-left: 305px;
+        margin-bottom: -10px;
+
+    }
+
+    p {
+        font-size: 10px;
+        color: rgb(75, 33, 33);
+        width: 20px;
+        margin-left: 270px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    
+    }
+
+    .botao-pedido {
+        width: 150px;
+        font-size: 10px;
+        background: plum;
+        color: rgb(75, 33, 33);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        padding: 20px;
+        margin: 30px;
+        margin-left: 130px;
+
+
+
+
+
+    }
+
+
+    .buttons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        transition: 1s;
+        margin-left: 3px;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+
+    .botao-brigadeiro {
+        width: 200px;
+        background: rgb(238, 192, 192);
+        color: rgb(75, 33, 33);
+        border-radius: 60px;
+        border: none;
+        cursor: pointer;
+        padding: 12px;
+        margin: 5px;
+        margin-left: 0;
+    }
+
+
+
+    .botao-tematicos {
+        width: 200px;
+        background: rgb(238, 192, 192);
+        color: rgb(75, 33, 33);
+        border-radius: 60px;
+        border: none;
+        padding: 12px;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+
+
+
+
+    .kits {
+        width: 200px;
+        background: rgb(238, 192, 192);
+        color: rgb(75, 33, 33);
+        border-radius: 60px;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        margin: 5px;
+
+
+    }
+
+
+
+    .botao-bolos {
+        width: 200px;
+        background: rgb(238, 192, 192);
+        color: rgb(75, 33, 33);
+        border-radius: 60px;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+
+
+    #thumbs {
+        width: 400px;
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+
+}
